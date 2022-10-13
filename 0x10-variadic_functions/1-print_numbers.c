@@ -7,7 +7,7 @@
  * @n: number of elements
  * Return: void
  */
-void print_strings(const char *separator, const unsigned int n, ...)
+print_strings(const char *separator, const unsigned int n, ...)
 {
 	char *sep, *ptr;
 	unsigned int i;
